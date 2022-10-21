@@ -211,6 +211,7 @@ footer{
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
+        padding-bottom: 10px;
 }
 .head31{
         font-size: 16px;
@@ -225,7 +226,7 @@ footer{
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.03em;
-        margin: 20px 24px 4px 24px;
+        padding: 20px 24px 4px 24px;
 }
 .p3{
     color:var(--brand-color-czcionka1);
@@ -256,6 +257,7 @@ footer{
         font-weight: 500;
         line-height: 1.71;
         letter-spacing: 0.03em;
+        color: var(--brand-color-czcionka1);
 }
 .p2{
     color:var(--brand-color-czcionka1);
@@ -307,6 +309,7 @@ align-items: center;
 
 .head2311{
     background-color: var(--brand-color-background2);
+   
 
 }
 
@@ -322,6 +325,10 @@ gap:30px;
 .head3211{
     flex-basis:calc((100% - 60px) / 3);
 
+}
+
+.picture{
+    display: block; 
 }
 
 .footer1{
