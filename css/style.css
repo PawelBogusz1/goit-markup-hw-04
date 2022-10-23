@@ -63,8 +63,6 @@ border-color: var(--brand-color-background3);
     display: flex;
   justify-content: space-between;
   gap:46px;
-  
-  
 }
 
 .naglowek2{
@@ -73,7 +71,79 @@ border-color: var(--brand-color-background3);
    gap:50px;
 }
 
+.contact{
+    fill:var(--brand-color-czcionka1);
+    margin-right: 10px;
+    }
 
+.contact:hover{
+    fill:var(--color2, #2196f3)" 
+}
+   
+        .naszeatuty{
+        fill: var(--brand-color-czcionka1);
+        background: var(--brand-color-background2);
+               padding: 25px; 0;
+    }
+
+    .klienci{
+        border-radius: 50%;
+        border-width:1px;
+        border-color: #AFB1B8;
+        fill: #AFB1B8;
+    }
+.klienci:hover,
+.klienci:focus{
+    color:var(--brand-color-czcionka2);
+    color4:#afb1b8;
+
+}
+
+.socialicons{
+         display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:10px;
+justify-content: space-between;
+margin:16px 32px 30px 32px;
+ }
+
+  .social{
+justify-content: space-between;
+gap:10px;
+    display:flex;
+    width:44px;
+    height: 44px;
+    border-radius: 50%;
+ 
+  }
+
+  .social:hover{
+    align-items: center;
+    display:flex;
+    width:44px;
+    height: 44px;
+    justify-content: center;
+   background: radial-gradient(circle, #2196f3 70%, #ffffff 70%);
+   
+  }
+
+.social2{
+justify-content:flex-start;
+gap:10px
+  width:44px;
+    height: 44px;
+    border-radius: 50%;
+    }
+
+.social2:hover{
+    align-items: center;
+    display:flex;
+  
+    background: radial-gradient(circle, #2196f3 100%, #ffffff 70%);
+
+}
 
 .button2{
         font-size: 16px;
@@ -109,17 +179,23 @@ gap:8px;
     font-family: inherit;  
     cursor: pointer;
     justify-content: center;
+    
               }
              
 
 .solutions {
     color:white;
-    background-color: var(--brand-color-background);
+background-image: url(../images/tlo.jpg);
+background-size: cover;
+background-position: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px; margin: 0 auto;
+    background-image: url(../images/tlo.jpg), url(../images/tlo.jpg);
+background-repeat: repeat-x, no-repeat;
     
 }
 
@@ -172,6 +248,9 @@ footer{
         line-height: 1;
         letter-spacing: 0.02em;
 }
+
+
+
 .link8{
     color: var(--brand-color-czcionka3);
         font-size: 14px;
@@ -241,6 +320,10 @@ footer{
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        }
+
+        .head21{
+            padding-bottom: 50px;
         }
 
        .head23{
@@ -324,16 +407,41 @@ gap:30px;
 
 .head3211{
     flex-basis:calc((100% - 60px) / 3);
-
 }
+
+.head24{
+    padding-bottom: 50px;
+}
+
+ .head241{
+     display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:30px;
+ }
 
 .picture{
     display: block; 
 }
 
+.picture:hover{
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.12);
+}
+
 .footer1{
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer2{
+    display:flex;
+    
+}
+
+.join{
+    padding-top: 72px;
+    margin-left: 171px;
 }
 
 .link1:hover,
@@ -369,6 +477,7 @@ color:var(--brand-color);
 .button1:focus{
     color:var(--brand-color-czcionka3);
     background-color: var(--brand-color-background4);
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.12)
 }
 
 
@@ -399,5 +508,6 @@ visibility: hidden;
 .team{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+background:#ffffff;
 
 }
