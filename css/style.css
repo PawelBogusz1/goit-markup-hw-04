@@ -77,7 +77,8 @@ border-color: var(--brand-color-background3);
     }
 
 .contact:hover{
-    fill:var(--color2, #2196f3)" 
+    fill:var(--color2, #2196f3);
+    stroke: var(--brand-color-czcionka2);
 }
    
         .naszeatuty{
