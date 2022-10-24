@@ -95,7 +95,7 @@ border-color: var(--brand-color-background3);
     }
 .klienci:hover,
 .klienci:focus{
-    fill: #afb1b8;
+    color:var(--brand-color-czcionka2);
      stroke: var(--brand-color-czcionka2);
 
 }
