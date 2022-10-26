@@ -98,8 +98,9 @@ border-color: var(--brand-color-background3);
     }
 .klienci:hover,
 .klienci:focus{
-    color:var(--brand-color-background4);
-     stroke: #2196f3;
+   color:var(--brand-color-background4);
+   --color4:var(--brand-color-background4);
+  --color1:white;
 
 }
 
