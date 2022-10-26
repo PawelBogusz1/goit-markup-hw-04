@@ -101,7 +101,6 @@ border-color: var(--brand-color-background3);
    color:var(--brand-color-background4);
    --color4:var(--brand-color-background4);
   --color1:white;
-
 }
 
 .socialicons{
@@ -114,14 +113,13 @@ margin:16px 0px 30px 0px;
  }
 
 .social{
-     
+   
     margin: 0.5rem;
  padding: 0.6rem;
   }
 
   .social:hover{
       background: radial-gradient(circle, #2196f3 70%, #ffffff 70%);
-
   }
 
 
